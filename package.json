@@ -1,0 +1,14 @@
+{
+  "name": "szatkoaleksander.github.io",
+  "version": "1.0.0",
+  "description": "ollosoft - Aleksander Szatko company website",
+  "main": "index.html",
+  "repository": "https://github.com/szatkoaleksander/szatkoaleksander.github.io.git",
+  "author": "szatkoaleksander <szatko.aleksander@gmail.com>",
+  "dependencies": {
+    "sass": "^1.53.0"
+  },
+  "scripts": {
+    "scss": "sass --watch styles/index.scss css/index.css"
+  }
+}

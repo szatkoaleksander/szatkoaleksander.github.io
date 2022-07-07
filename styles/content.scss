@@ -1,0 +1,17 @@
+.title {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  text-align: center;
+  margin: 68px auto;
+  font-size: 48px;
+  font-weight: 500;
+
+  @media(min-width: $desktop-breakpoint) {
+    text-align: left;
+    width: 518px;
+    margin: 148px 0 0 164px;
+    font-size: 88px;
+    font-weight: 500;
+  }
+}
